@@ -1,8 +1,6 @@
 let modalActive = 0
 
-document.getElementById("navbar-menu").addEventListener("click", () => {
-    modalToggle()
-})
+document.getElementById("navbar-menu").addEventListener("click", modalToggle)
 
 function modalToggle(){
     if(!modalActive){
