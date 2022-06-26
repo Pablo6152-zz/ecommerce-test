@@ -1,6 +1,5 @@
 const prevBtn = document.getElementById("prev-slide")
 const nextBtn = document.getElementById("next-slide")
-
 const slides = document.getElementsByClassName("item")
 let currentSlide = 0
 
